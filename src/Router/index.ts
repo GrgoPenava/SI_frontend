@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-//import { useRoleStore } from "../Store/roleStore";
 import Login from "../modules/Login/Pages/Login.vue";
 import Movies from "../modules/Movies/Pages/Movies.vue";
 import NotFound from "../components/NotFound.vue";
@@ -15,13 +14,13 @@ export function getRoutes(): RouteRecordRaw[] {
       path: "/login",
       name: "Login",
       component: Login,
-      meta: { requiresAuth: false, show: true },
+      meta: { requiresAuth: false, show: true, showBeforeLogin: true },
     },
     {
       path: "/movies",
       name: "Movies",
       component: Movies,
-      meta: { requiresAuth: true, show: true },
+      meta: { requiresAuth: true, show: true, showBeforeLogin: true },
     },
     {
       path: "/users",
