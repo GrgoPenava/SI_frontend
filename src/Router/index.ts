@@ -4,6 +4,7 @@ import Movies from "../modules/Movies/Pages/Movies.vue";
 import NotFound from "../components/NotFound.vue";
 import Users from "../modules/Users/Pages/Users.vue";
 import Xss from "../components/Xss.vue";
+import SqlInjection from "../components/SqlInjection.vue";
 
 export function getRoutes(): RouteRecordRaw[] {
   const routes: Array<RouteRecordRaw> = [
@@ -33,6 +34,12 @@ export function getRoutes(): RouteRecordRaw[] {
       path: "/xss",
       name: "XSS",
       component: Xss,
+      meta: { requiresAuth: false, show: true, showBeforeLogin: true },
+    },
+    {
+      path: "/sqlinjection",
+      name: "Injection",
+      component: SqlInjection,
       meta: { requiresAuth: false, show: true, showBeforeLogin: true },
     },
     {

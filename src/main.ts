@@ -9,6 +9,7 @@ import "primevue/resources/primevue.min.css";
 import ApiService from "./Services/ApiService";
 import Toast, { PluginOptions, POSITION } from "vue-toastification";
 import "vue-toastification/dist/index.css";
+import "@hcaptcha/vanilla-hcaptcha";
 
 const pinia = createPinia();
 const toastOptions: PluginOptions = {

@@ -19,6 +19,7 @@
 import { defineComponent } from "vue";
 //@ts-ignore
 import Attack from "./Attack.vue";
+//@ts-ignore
 import Defend from "./Defend.vue";
 export default defineComponent({
   components: { Attack, Defend },
