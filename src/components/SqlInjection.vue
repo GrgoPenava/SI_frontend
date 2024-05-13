@@ -55,15 +55,12 @@ export default defineComponent({
       toast: useToast(),
     };
   },
-  async mounted() {},
   methods: {
     async login() {
       try {
-        const response = await this.loginService.login(this.loginForm);
+        const response = await this.loginService.loginInjection(this.loginForm);
         console.log("response nakon login", response);
-        this.userStore.setToken(response.jwt);
-        console.log("token u Login", this.userStore.token);
-        this.toast.success("Login successfully");
+        //this.userStore.setToken(response.jwt);
       } catch (error) {
         this.toast.error("Login error, try again");
       } finally {

@@ -26,7 +26,7 @@ export default defineComponent({
   mounted() {
     console.log("Kod za dohvat svih usera");
 
-    console.log(`<iframe src="javascript:fetch('http://localhost:8081/api/rest/v1/users').then(response => response.json()).then(data => console.log(data)).catch(err => console.error('Error:', err));" style="display:none;"></iframe>
+    console.log(`<iframe src="javascript:fetch('https://localhost:8081/api/rest/v1/users').then(response => response.json()).then(data => console.log(data)).catch(err => console.error('Error:', err));" style="display:none;"></iframe>
 `);
   },
 });

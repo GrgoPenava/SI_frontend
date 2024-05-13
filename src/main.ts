@@ -29,7 +29,7 @@ const app = createApp(App);
 app.use(pinia);
 app.use(Toast, toastOptions);
 
-const backendUrl = "http://localhost:8081/";
+const backendUrl = "https://localhost:8081/";
 ApiService.init(backendUrl);
 
 function renderApp() {
