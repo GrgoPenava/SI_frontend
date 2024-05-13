@@ -10,6 +10,8 @@ import ApiService from "./Services/ApiService";
 import Toast, { PluginOptions, POSITION } from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import "@hcaptcha/vanilla-hcaptcha";
+//@ts-ignore
+import moment from "moment";
 
 const pinia = createPinia();
 const toastOptions: PluginOptions = {

@@ -5,6 +5,7 @@ import NotFound from "../components/NotFound.vue";
 import Users from "../modules/Users/Pages/Users.vue";
 import Xss from "../components/Xss.vue";
 import SqlInjection from "../components/SqlInjection.vue";
+import BruteForce from "../components/BruteForce.vue";
 
 export function getRoutes(): RouteRecordRaw[] {
   const routes: Array<RouteRecordRaw> = [
@@ -40,6 +41,12 @@ export function getRoutes(): RouteRecordRaw[] {
       path: "/sqlinjection",
       name: "Injection",
       component: SqlInjection,
+      meta: { requiresAuth: false, show: true, showBeforeLogin: true },
+    },
+    {
+      path: "/bruteForce",
+      name: "BruteForce",
+      component: BruteForce,
       meta: { requiresAuth: false, show: true, showBeforeLogin: true },
     },
     {

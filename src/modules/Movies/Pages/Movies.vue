@@ -36,7 +36,6 @@ export default defineComponent({
   async created() {
     try {
       this.movies = await this.movieService.getAllMoviesFromFile();
-      console.log("filmovi -", this.movies);
     } catch (error) {
       console.log(error);
     } finally {

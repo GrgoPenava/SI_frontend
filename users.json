@@ -1,0 +1,58 @@
+[
+    {
+        "id": 2,
+        "firstName": "Ivana",
+        "lastName": "Horvat",
+        "address": "Zagrebacka 101",
+        "city": "Zagreb",
+        "email": "ivana.horvat@example.com",
+        "password": "$2a$10$wK.8Uoys..uTodewl/rwVeek0EnfsCcqAYDaU3wrUsieu1OUeeJhe",
+        "dateCreated": "2024-05-05T20:34:41.847+00:00",
+        "dateModified": "2024-05-05T20:34:41.847+00:00",
+        "userType": 1
+    },{
+        "id": 2,
+        "firstName": "Ivana",
+        "lastName": "Horvat",
+        "address": "Zagrebacka 101",
+        "city": "Zagreb",
+        "email": "ivana.horvat@example.com",
+        "password": "$2a$10$wK.8Uoys..uTodewl/rwVeek0EnfsCcqAYDaU3wrUsieu1OUeeJhe",
+        "dateCreated": "2024-05-05T20:34:41.847+00:00",
+        "dateModified": "2024-05-05T20:34:41.847+00:00",
+        "userType": 1
+    },{
+        "id": 2,
+        "firstName": "nIvana",
+        "lastName": "mHorvat",
+        "address": "Zagrebacka 101",
+        "city": "Zagreb",
+        "email": "ivana.horvat@example.com",
+        "password": "$2a$10$wK.8Uoys..uTodewl/rwVeek0EnfsCcqAYDaU3wrUsieu1OUeeJhe",
+        "dateCreated": "2024-05-05T20:34:41.847+00:00",
+        "dateModified": "2024-05-05T20:34:41.847+00:00",
+        "userType": 1
+    },{
+        "id": 5,
+        "firstName": "tzIvana",
+        "lastName": "fgHorvat",
+        "address": "Zagrebacka 101",
+        "city": "Zagreb",
+        "email": "ivana.horvat@example.com",
+        "password": "$2a$10$wK.8Uoys..uTodewl/rwVeek0EnfsCcqAYDaU3wrUsieu1OUeeJhe",
+        "dateCreated": "2024-05-05T20:34:41.847+00:00",
+        "dateModified": "2024-05-05T20:34:41.847+00:00",
+        "userType": 1
+    },{
+        "id": 3,
+        "firstName": "adIvana",
+        "lastName": "dfHorvat",
+        "address": "Zagrebacka 101",
+        "city": "Zagreb",
+        "email": "ivana.horvat@example.com",
+        "password": "$2a$10$wK.8Uoys..uTodewl/rwVeek0EnfsCcqAYDaU3wrUsieu1OUeeJhe",
+        "dateCreated": "2024-05-05T20:34:41.847+00:00",
+        "dateModified": "2024-05-05T20:34:41.847+00:00",
+        "userType": 1
+    }
+]
